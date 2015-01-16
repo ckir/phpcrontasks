@@ -1,4 +1,4 @@
 trash-put *.*~
-appcfg.py -A taskqueuejsonrpc update ../taskqueuejsonrpc/
+appcfg.py -A phpcrontasks update ../phpcrontasks/
 
-#appcfg.py -A taskqueuejsonrpc rollback ../taskqueuejsonrpc/
+#appcfg.py -A phpcrontasks rollback ../phpcrontasks/

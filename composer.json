@@ -6,20 +6,8 @@
       "json-rpc",
       "zf2"
    ],
-   "homepage":"http://framework.zend.com/",
-   "repositories":[
-      {
-         "url":"https://github.com/mtibben/html2text.git",
-         "type":"vcs"
-      }
-   ],
+   "homepage":"https://github.com/ckir/phpcrontasks",
    "require":{
-      "zendframework/zendframework":"2.3.*",
-      "google/apiclient":"1.0.*@dev",
-      "mtdowling/cron-expression":"1.0.*",
-      "ezyang/htmlpurifier":"dev-master",
-      "mustangostang/spyc":"0.5.*@dev",
-      "tivoka/tivoka":"*",
-      "html2text/html2text":"dev-master"
+      "mtdowling/cron-expression":"1.0.*"
    }
 }
