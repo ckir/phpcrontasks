@@ -1,0 +1,42 @@
+application: taskqueuejsonrpc
+version: 1
+runtime: php
+api_version: 1
+
+handlers:
+- url: /cron
+  script: cron/cronjobs.php
+  
+- url: /cronrss
+  script: cron/cronrss.php
+  
+- url: /calendar
+  script: calendar.php
+  
+- url: /oath
+  script: oath.php
+    
+- url: /taskqueue
+  script: taskqueue.php
+  
+- url: /taskworker
+  script: taskworker.php
+  
+- url: /functions
+  script: phpfunctions.php
+  
+- url: /testcalendar
+  script: tests/Rpc/Service/Calendar/testcalendar.php
+
+- url: /testblogger
+  script: tests/Rpc/Service/Blogger/testBlogger.php
+
+- url: /testtaskqueue
+  script: tests/Taskqueue/testTaskqueue.php
+- url: /testfeed
+  script: tests/Taskqueue/Workers/Feed/testFeed.php  
+  
+- url: /.*
+  script: phpinfo.php
+
+
