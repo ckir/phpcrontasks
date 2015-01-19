@@ -6,14 +6,4 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Cron\\AbstractField' => $vendorDir . '/mtdowling/cron-expression/src/Cron/AbstractField.php',
-    'Cron\\CronExpression' => $vendorDir . '/mtdowling/cron-expression/src/Cron/CronExpression.php',
-    'Cron\\DayOfMonthField' => $vendorDir . '/mtdowling/cron-expression/src/Cron/DayOfMonthField.php',
-    'Cron\\DayOfWeekField' => $vendorDir . '/mtdowling/cron-expression/src/Cron/DayOfWeekField.php',
-    'Cron\\FieldFactory' => $vendorDir . '/mtdowling/cron-expression/src/Cron/FieldFactory.php',
-    'Cron\\FieldInterface' => $vendorDir . '/mtdowling/cron-expression/src/Cron/FieldInterface.php',
-    'Cron\\HoursField' => $vendorDir . '/mtdowling/cron-expression/src/Cron/HoursField.php',
-    'Cron\\MinutesField' => $vendorDir . '/mtdowling/cron-expression/src/Cron/MinutesField.php',
-    'Cron\\MonthField' => $vendorDir . '/mtdowling/cron-expression/src/Cron/MonthField.php',
-    'Cron\\YearField' => $vendorDir . '/mtdowling/cron-expression/src/Cron/YearField.php',
 );
