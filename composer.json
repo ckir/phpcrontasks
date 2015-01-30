@@ -7,7 +7,14 @@
       "zf2"
    ],
    "homepage":"https://github.com/ckir/phpcrontasks",
+   "repositories":[
+      {
+         "type":"vcs",
+         "url":"https://github.com/ckir/phpMultiLog.git"
+      }
+   ],
    "require":{
-      "mtdowling/cron-expression":"1.0.*"
+      "mtdowling/cron-expression":"1.0.*",
+      "ckir/phpMultiLog":"dev-master"
    }
 }

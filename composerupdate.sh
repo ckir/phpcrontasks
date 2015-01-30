@@ -1,5 +1,5 @@
-/usr/local/zend/bin/php composer.phar self-update
-/usr/local/zend/bin/php composer.phar update
+php composer.phar self-update
+php composer.phar update --ignore-platform-reqs --prefer-source --optimize-autoloader
 cd vendor
 find . -name ".git" | xargs rm -rf
 find . -name ".gitattributes" | xargs rm -rf

@@ -1,0 +1,26 @@
+{
+   "name":"ckir/phpMultiLog",
+   "type":"library",
+   "description":"A non PSR compatible multi-transport logging and error/exception handling library for php.",
+   "keywords":[
+      "phpMultiLog"
+   ],
+   "homepage":"https://github.com/ckir/phpMultiLog",
+   "license":"Apache-2.0",
+   "require":{
+      "php":">=5.4.0"
+   },
+   "require-dev":{
+      "phpunit/phpunit":"3.7.*"
+   },
+   "autoload":{
+      "classmap":[
+         "src/"
+      ]
+   },
+   "extra":{
+      "branch-alias":{
+         "dev-master":"1.1.x-dev"
+      }
+   }
+}

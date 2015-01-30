@@ -6,4 +6,25 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Cron\\AbstractField' => $vendorDir . '/mtdowling/cron-expression/src/Cron/AbstractField.php',
+    'Cron\\CronExpression' => $vendorDir . '/mtdowling/cron-expression/src/Cron/CronExpression.php',
+    'Cron\\DayOfMonthField' => $vendorDir . '/mtdowling/cron-expression/src/Cron/DayOfMonthField.php',
+    'Cron\\DayOfWeekField' => $vendorDir . '/mtdowling/cron-expression/src/Cron/DayOfWeekField.php',
+    'Cron\\FieldFactory' => $vendorDir . '/mtdowling/cron-expression/src/Cron/FieldFactory.php',
+    'Cron\\FieldInterface' => $vendorDir . '/mtdowling/cron-expression/src/Cron/FieldInterface.php',
+    'Cron\\HoursField' => $vendorDir . '/mtdowling/cron-expression/src/Cron/HoursField.php',
+    'Cron\\MinutesField' => $vendorDir . '/mtdowling/cron-expression/src/Cron/MinutesField.php',
+    'Cron\\MonthField' => $vendorDir . '/mtdowling/cron-expression/src/Cron/MonthField.php',
+    'Cron\\YearField' => $vendorDir . '/mtdowling/cron-expression/src/Cron/YearField.php',
+    'phpMultiLog\\Transports\\errFile' => $vendorDir . '/ckir/phpMultiLog/src/Transports/errFile.php',
+    'phpMultiLog\\Transports\\errPdoPostgres' => $vendorDir . '/ckir/phpMultiLog/src/Transports/errPdoPostgres.php',
+    'phpMultiLog\\Transports\\errStderr' => $vendorDir . '/ckir/phpMultiLog/src/Transports/errStderr.php',
+    'phpMultiLog\\Transports\\sysEcho' => $vendorDir . '/ckir/phpMultiLog/src/Transports/sysEcho.php',
+    'phpMultiLog\\Transports\\sysFile' => $vendorDir . '/ckir/phpMultiLog/src/Transports/sysFile.php',
+    'phpMultiLog\\Transports\\sysPdoPostgres' => $vendorDir . '/ckir/phpMultiLog/src/Transports/sysPdoPostgres.php',
+    'phpMultiLog\\Transports\\sysStdout' => $vendorDir . '/ckir/phpMultiLog/src/Transports/sysStdout.php',
+    'phpMultiLog\\Transports\\sysSysLog' => $vendorDir . '/ckir/phpMultiLog/src/Transports/sysSysLog.php',
+    'phpMultiLog\\phpMultiLog' => $vendorDir . '/ckir/phpMultiLog/src/phpMultiLog.php',
+    'phpMultiLog\\phpMultiLogException' => $vendorDir . '/ckir/phpMultiLog/src/phpMultiLogException.php',
+    'phpMultiLog\\phpMultiLogShutdownProcess' => $vendorDir . '/ckir/phpMultiLog/src/phpMultiLogShutdownProcess.php',
 );
